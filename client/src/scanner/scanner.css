@@ -1,0 +1,292 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.scbackground {
+    background-image: url('C:/Users/ngupt/Desktop/lahacks/client/src/images/loginbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+.scmy-table {
+    width: 100%;
+    height:100vh;
+    background-color: transparent;
+    border-collapse: collapse; 
+  }
+  
+  .scmy-table td {
+    text-align: center;
+    background-color: transparent;
+    justify-content: center; 
+  }
+
+  .scsecond-row, .fourth-row td {
+    width: 100%; 
+    background-color: transparent;
+  }
+
+  .sctitle-container {
+    text-align: center; 
+    font-size: 70px; 
+    font-weight: bold; 
+    color: #084b0b; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    padding: 20px 0; 
+    border-radius: 10px; 
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: transparent;
+    padding-top: 10vh;
+
+    
+  }
+  
+  .scfirst-row td {
+    width: 100%;
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    padding: 20px 0; 
+    background-color: transparent;
+  }
+
+  .scfirst-row {
+    height: 15%;
+    background-color: transparent;
+  }
+  
+  .scproduct-title {
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    padding: 20px 0; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+    width: 80%; 
+    margin: 0 auto; 
+    
+  }
+  
+  .scsecond-row {
+    height: 45%;
+    background-color: transparent;
+  }
+
+  
+  .scbutton-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding: 10px 0; 
+    background-color: transparent;
+
+  }
+  .scbuttonSpan{
+    display: flex;
+    width: 40%;
+    justify-content:center;
+    background-color: transparent;
+
+  }
+  
+  .scbutton{
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px 40px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+
+  }
+  
+  .scbutton:hover {
+    background-color: #45a049; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  
+
+  .scvideo-container {
+    height: 60vh;
+    background-color: black;
+    padding: 10px;
+    width: 41%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    text-align: center;
+     overflow: hidden;
+    
+     transform: translateY(-7vh);
+  }
+  
+  #videoWindow video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }
+  
+
+  
+  .scfourth-row {
+    height: 30%;
+    background-color: transparent;
+  }
+
+  .scbarcode-container {
+    margin: 0 auto; 
+    width: 41%; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 3vh;
+    
+  }
+  
+  .scbarcode {
+    font-size: 30px; 
+    font-weight: bold; 
+    
+  }  
+  
+  .scbarcode-container p {
+    margin: 20px; 
+    font-size: 30px; 
+    font-weight: bold; 
+    
+  }
+
+
+  .scalternatives-container {
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px;
+    max-width: 800px; 
+    margin: auto;
+    margin-right: 20vh;
+    text-align: left;
+    
+}
+
+.scalternative-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.scalternative-header {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+    transform: translateX(12.5vh);
+}
+
+.scalternative-description,
+.scalternative-availability {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+    display: block;
+    text-align: center;
+}
+
+
+.screcycling-instructions-container {
+    margin-left: 19.5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    padding-bottom: 2vh;
+  }
+  
+  .screcycling-instructions-container h3 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #4CAF50; 
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 20px; 
+    padding: 10px; 
+    text-transform: uppercase; 
+    border-bottom: 2px solid #ccc; 
+
+  }
+  
+  .screcycling-step {
+    background-color: #f0f0f0;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    border-left: 5px solid #4CAF50;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 10vh;
+    width: 700px;
+  }
+  
+  .scalternatives-container h3 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #4CAF50; 
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 20px; 
+    padding: 10px; 
+    text-transform: uppercase; 
+    border-bottom: 2px solid #ccc; 
+  }
+  
+  .scresponse-container {
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0; 
+  }
+  
+  .scresponse-container > div {
+    flex: 1; 
+    margin-right: 10px; 
+  }
+  
+  .scresponse-container > div:last-child {
+    margin-right: 0; 
+  }
+
+  .scerror-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }

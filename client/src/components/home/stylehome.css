@@ -1,0 +1,384 @@
+/* Add transitions to all elements */
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    min-width: 1080px;
+}
+
+/* Style the navbar links */
+.navbar {
+    background-color: rgba(51, 51, 51, 0.8);
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    left: 0;
+    width: 100vw;
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    z-index: 1000;
+    height: 90px;
+}
+
+.navbar a {
+    font-family: 'Poppins';
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: white;
+    position: relative; /* Add relative positioning for pseudo-element */
+}
+
+.navbar a:hover::after {
+    content: ''; /* Add underline pseudo-element */
+    position: absolute;
+    bottom: 20px;
+    left: 22px;
+    width: 70%;
+    height: 3px;
+    background-color: #3bbeff; /* Underline color */
+    transform: scaleX(0); /* Initial transform for underline */
+    transition: transform 0.3s ease; /* Transition for underline */
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1); /* Scale up underline on hover */
+}
+
+.p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+    transform: translateY(-100px);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background: #3bbeff;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.header {
+    background-image: url("C:/Users/ngupt/Desktop/lahacks/client/src/images/mainbackground.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to 100 viewport height units */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Set the text color to white or any desired color */
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.header .logo {
+    transform: translateX(-900px);
+}
+
+.headertitle {
+    font-size: 120px;
+    color: white;
+    transform: translateY(-10px);
+}
+
+.headersubtitle {
+    font-weight: 300;
+    width: 300%;
+    transform: translateY(-40px);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    max-width: 1080px;
+}
+
+/* Intro section styles */
+.intro-section {
+    background-color: #f7f7f7; /* Light gray background */
+    display: flex;
+    padding: 50px; /* Padding around the content */
+}
+
+.intro-section h2 {
+    font-size: 32px; /* Larger font size for the heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.intro-section p {
+    font-size: 18px; /* Font size for the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    color: #666; /* Slightly darker text color */
+}
+
+.intro-section .highlight-text {
+    color: #ff523b; /* Highlight color for specific text */
+    font-weight: bold; /* Bold font for highlighted text */
+}
+
+.btn:hover {
+    background: #344956;
+}
+
+.categories {
+    margin: 70px 0;
+    transform: translateX(20px);
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: -10px;
+    perspective: 1000px; /* Added for 3D effect */
+}
+
+.col-3 img {
+    width: 100%;
+    transition: transform 0.8s ease; /* Added for flipping effect */
+}
+
+.col-3:hover img {
+    transform: rotateY(180deg); /* Flipping effect on hover */
+}
+
+.textcontainer {
+    max-width: 100vw;
+    flex: 1;
+}
+
+.textcontainer h2,
+.textcontainer p {
+    width: 100%; /* Ensure the text takes up the full width */
+    max-width: 100%; /* Allow the text to scale down if necessary */
+    font-size: 22px;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    transform: translateX(25px);
+}
+
+.title3
+{
+    font-size: 24px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    margin-top: -60px;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transform-origin: center; /* Added for scaling effect */
+}
+
+.col-4 img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.col-4:hover {
+    transform: scale(1.05) translateY(-5px); /* Scaling up and slight movement on hover */
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-4 p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ---------- offer --------------*/
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img {
+    padding: 50px;
+}
+
+small {
+    color: #555;
+}
+
+/*------- footer --------*/
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.media-scroller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px; /* Add padding above and below */
+    scrollbar-width: none; /* Remove the scrollbar */
+    gap: 30px;
+    margin-top: -30px;
+}
+
+.media-scroller::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for WebKit browsers */
+}
+
+.productimgs {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+}
+
+.productimgs img {
+    max-width: 100%; /* Set the maximum width to the container's width */
+    max-height: 70%; /* Set the maximum height to the container's height */
+    object-fit: contain; /* Maintain aspect ratio and fit the image inside the container */
+    transition: transform 0.3s ease;
+}
+
+.productimgs:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.latestproducts {
+    background-color: white;
+    padding-bottom: 0px;
+}
