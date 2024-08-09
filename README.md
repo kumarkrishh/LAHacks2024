@@ -64,7 +64,7 @@ Our mission is to educate, engage, and inspire users to adopt sustainable practi
 
 Here are some screenshots that showcase key features of the project:
 
-![Home Page](client/ProjectPictures/homepage.png)
+![Home Page](client/ProjectPictures/home2.png)
 *The home page provides an overview of real-time climate news and access to other tools.*
 
 ![CO2 Emissions Explorer](client/ProjectPictures/simulation.png)
@@ -73,7 +73,7 @@ Here are some screenshots that showcase key features of the project:
 ![Barcode Scanner](client/ProjectPictures/homepage.png)
 *Smart barcode scanner offering recycling guidelines.*
 
-![Nature Eye Tool](client/ProjectPictures/natureeye1.png)
+![Nature Eye Tool](client/ProjectPictures/natureseye.png)
 *Nature Eye tool identifying plants and providing ecological advice based on uploaded images.*
 
 
