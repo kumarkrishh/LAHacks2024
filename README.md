@@ -28,15 +28,14 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="client/ProjectPictures/earthicon.png" alt="Logo" width="400" height="350">
+    <img src="client/ProjectPictures/earthicon.png" alt="Logo" width="200" height="170">
   </a>
-
-  <h3 align="center">EcoSphere</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
+  <h3 align="center" style="font-size: 6em; margin-top: 20px;">EcoSphere</h3>
+  <p align="center" style="font-size: 1.2em; color: #555;">
+    AI-driven insights for a greener future.
   </p>
 </div>
+
 
 
 ## About The Project
