@@ -1,4 +1,4 @@
-# LAHacks2024
+
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -43,11 +43,11 @@
 This project was developed during the LAHacks2024 hackathon, tackling the pressing challenge of Environmental Sustainability. Our platform integrates cutting-edge technology to empower users with the tools they need to make informed, eco-friendly decisions.
 
 ### Key Features:
-- **Real-Time Climate News**: Stay informed on global climate change initiatives and breakthroughs.
-- **Interactive CO2 Emissions Explorer**: Visualize and analyze CO2 emissions trends in the USA from 1990 to 2022.
-- **Smart Barcode Scanner**: Instantly access recycling guidelines tailored to your products for a greener impact.
-- **AI-Driven Carbon Footprint Calculator**: Receive customized advice on reducing your carbon footprint, tailored to your lifestyle.
-- **Nature Eye**: Upload images of nature to identify plant species, uncover fascinating facts, and get tips on restoring and enhancing ecosystems.
+- **Up-to-Date Climate News**: Stay informed on global climate change initiatives and breakthroughs.
+- **Interactive CO2 Emissions Simulation**: Visualize and analyze CO2 emissions trends in the USA from 1990 to 2022.
+- **Smart Recycling Barcode Scanner**: Instantly access recycling guidelines tailored to your products for a greener impact.
+- **AI Carbon Footprint Calculator**: Receive customized advice on reducing your carbon footprint, tailored to your lifestyle.
+- **Nature's Eye**: Upload images of nature to identify plant species, uncover fascinating facts, or get tips on restoring and enhancing ecosystems.
 
 Our mission is to educate, engage, and inspire users to adopt sustainable practices, fostering a more environmentally conscious future.
 
@@ -66,16 +66,25 @@ Our mission is to educate, engage, and inspire users to adopt sustainable practi
 Here are some screenshots that showcase key features of the project:
 
 ![Home Page](client/ProjectPictures/home2.png)
-*The home page provides an overview of real-time climate news and access to other tools.*
+
+*The home page provides an overview of climate initiatives and access to other tools.*  
+
 
 ![CO2 Emissions Explorer](client/ProjectPictures/simulation.png)
-*Interactive simulation showing CO2 emissions by state from 1990 to 2022.*
+
+*Interactive simulation showing CO2 emissions by state from 1990 to 2022.*  
+
 
 ![Barcode Scanner](client/ProjectPictures/recycleainew.png)
-*Smart barcode scanner offering recycling guidelines.*
+
+*Smart barcode scanner offering recycling guidelines.*  
+
 
 ![Nature Eye Tool](client/ProjectPictures/natureseye.png)
-*Nature Eye AI tool identifying plants and providing ecological advice based on uploaded images.*
+
+*Nature Eye AI tool identifying plants and providing ecological advice based on uploaded images.*  
+
+
 
 
 
@@ -97,12 +106,12 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free Gemini API Key at [Google Cloud Console](https://console.cloud.google.com/).
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/kumarkrishh/LAHacks2024.git
    ```
-3. Install NPM packages
+3. Install NPM packages for both server and client
    ```sh
    npm install
    ```
@@ -111,56 +120,14 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Krish Kumar - [LinkedIn](https://www.linkedin.com/in/krishkum/)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
