@@ -54,7 +54,7 @@ Our mission is to educate, engage, and inspire users to adopt sustainable practi
 
 
 ### Built With
-
+- ![Google Generative AI](https://img.shields.io/badge/Google%20Generative%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 - ![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 - ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -70,11 +70,11 @@ Here are some screenshots that showcase key features of the project:
 ![CO2 Emissions Explorer](client/ProjectPictures/simulation.png)
 *Interactive simulation showing CO2 emissions by state from 1990 to 2022.*
 
-![Barcode Scanner](client/ProjectPictures/homepage.png)
+![Barcode Scanner](client/ProjectPictures/recycleainew.png)
 *Smart barcode scanner offering recycling guidelines.*
 
 ![Nature Eye Tool](client/ProjectPictures/natureseye.png)
-*Nature Eye tool identifying plants and providing ecological advice based on uploaded images.*
+*Nature Eye AI tool identifying plants and providing ecological advice based on uploaded images.*
 
 
 
