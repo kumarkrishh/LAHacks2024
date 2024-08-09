@@ -60,32 +60,21 @@ Our mission is to educate, engage, and inspire users to adopt sustainable practi
 - [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 - [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-
 ## Screenshots
 
 Here are some screenshots that showcase key features of the project:
 
-![Home Page](client/ProjectPictures/home2.png)
+| ![Home Page](client/ProjectPictures/home2.png) | ![CO2 Emissions Explorer](client/ProjectPictures/simulation.png) |
+|:---------------------------------------------:|:--------------------------------------------------------------:|
+| *The home page provides an overview of climate initiatives and access to other tools.* | *Interactive simulation showing CO2 emissions by state from 1990 to 2022.* |
 
-*The home page provides an overview of climate initiatives and access to other tools.*  
+| ![Barcode Scanner](client/ProjectPictures/recycleainew.png) | ![Nature Eye Tool](client/ProjectPictures/natureseye.png) |
+|:-----------------------------------------------------------:|:---------------------------------------------------------:|
+| *Smart barcode scanner offering recycling guidelines.* | *Nature Eye AI tool identifying plants and providing ecological advice based on uploaded images.* |
 
-
-![CO2 Emissions Explorer](client/ProjectPictures/simulation.png)
-
-*Interactive simulation showing CO2 emissions by state from 1990 to 2022.*  
-
-
-![Barcode Scanner](client/ProjectPictures/recycleainew.png)
-
-*Smart barcode scanner offering recycling guidelines.*  
-
-
-![Nature Eye Tool](client/ProjectPictures/natureseye.png)
-
-*Nature Eye AI tool identifying plants and providing ecological advice based on uploaded images.*  
-
-
-
+| ![Carbon Footprint Form](client/ProjectPictures/footprintform3.png) | ![Carbon Footprint Results](client/ProjectPictures/footprintresults.png) |
+|:-------------------------------------------------------------:|:----------------------------------------------------------------:|
+| *Interactive form to estimate your carbon footprint.* | *AI-generated insights with personalized tips to effectively reduce your carbon footprint.* |
 
 
 <!-- GETTING STARTED -->
