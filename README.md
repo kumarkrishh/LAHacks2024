@@ -60,6 +60,22 @@ Our mission is to educate, engage, and inspire users to adopt sustainable practi
 - ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 - ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
+## Screenshots
+
+Here are some screenshots that showcase key features of the project:
+
+![Home Page](client/ProjectPictures/homepage.png)
+*The home page provides an overview of real-time climate news and access to other tools.*
+
+![CO2 Emissions Explorer](client/ProjectPictures/simulation.png)
+*Interactive simulation showing CO2 emissions by state from 1990 to 2022.*
+
+![Barcode Scanner](client/ProjectPictures/homepage.png)
+*Smart barcode scanner offering recycling guidelines.*
+
+![Nature Eye Tool](client/ProjectPictures/natureeye1.png)
+*Nature Eye tool identifying plants and providing ecological advice based on uploaded images.*
+
 
 
 <!-- GETTING STARTED -->
@@ -109,21 +125,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -162,23 +163,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
