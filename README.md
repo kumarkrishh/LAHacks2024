@@ -74,7 +74,7 @@ Here are some screenshots that showcase key features of the project:
 
 | ![Carbon Footprint Form](client/ProjectPictures/footprintform3.png) | ![Carbon Footprint Results](client/ProjectPictures/footprintresults.png) |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| *Interactive form to estimate your carbon footprint.* | *Carbon Footprint insights with personalized AI-generated tips to effectively reduce your carbon footprint.* |
+| *Interactive form to estimate your carbon footprint.* | *Data visualizations with AI-generated tips to reduce your carbon footprint based on your input.* |
 
 
 <!-- GETTING STARTED -->
